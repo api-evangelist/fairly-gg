@@ -1,4 +1,4 @@
-# fairly-gg
+# Fairly
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fairly-gg is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fairly.gg/
+Fairly (https://fairly.gg) compares PC game prices across authorized stores and game subscriptions. It shows the real checkout price, the cheapest way to play, all-time lows and what is leaving Game Pass. Prices are shown per region and currency (US/USD, EU/EUR, UK/GBP, TR/TRY). Some store links are affiliate links; the price does not change and ranking never depends on them.
+
+**Areas:** Gaming · Price Comparison · API · Open Data · Fair Pricing
+
+## Fairly on APIs.io
+
+Everything profiled for Fairly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fairly-gg/](https://apis.io/providers/fairly-gg/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Fairly API](https://apis.io/apis/fairly-gg/fairly-api/) — Real prices for PC games, including checkout fees, and the cheapest way to play.
+- [Fairly API API](https://apis.io/apis/fairly-gg/fairly-api-api/) — Real prices for PC games, including checkout fees, and the cheapest way to play. Data is licensed CC BY 4.0, attribution: "Fairly"; game cover images are…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiResponseOfDiscoverPageModel](https://apis.io/schemas/fairly-gg/fairly-gg-api-response-of-discover-page-model/)
+- [ApiResponseOfIReadOnlyListOfDiscoverTierModel](https://apis.io/schemas/fairly-gg/fairly-gg-api-response-of-iread-only-list-of-discover-tier-model/)
+- [ApiResponseOfIReadOnlyListOfGameSummary](https://apis.io/schemas/fairly-gg/fairly-gg-api-response-of-iread-only-list-of-game-summary/)
+- [ApiResponseOfIReadOnlyListOfHistoryPoint](https://apis.io/schemas/fairly-gg/fairly-gg-api-response-of-iread-only-list-of-history-point/)
+- [ApiResponseOfIReadOnlyListOfSourceStatus](https://apis.io/schemas/fairly-gg/fairly-gg-api-response-of-iread-only-list-of-source-status/)
+- [ApiResponseOfIReadOnlyListOfSubscriptionSummaryModel](https://apis.io/schemas/fairly-gg/fairly-gg-api-response-of-iread-only-list-of-subscription-summary-model/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fairly Gg Context](https://apis.io/jsonld/fairly-gg/fairly-gg-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Fairly API Rules](https://apis.io/rules/fairly-gg/fairly-gg-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fairly Gg Domain Security](https://apis.io/security/fairly-gg/fairly-gg-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fairly.gg/)
+- [Documentation](https://api.fairly.gg/docs)
+- [API reference](https://api.fairly.gg/docs/interactive)
+- [Privacy policy](https://fairly.gg/privacy)
+
+## API Evangelist rating
+
+**Kin Score 36.3** — thin · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 10.5 |
+
+**Agent readiness 19.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 14.7** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fairly-gg/](https://apis.io/providers/fairly-gg/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fairly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fairly-gg/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
